@@ -1,0 +1,26 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.nav{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    min-height: 3vw;
+    font-size: 22px;
+    color:white;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    /* text-decoration: none; */
+    gap:30px;
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+}

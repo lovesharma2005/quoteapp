@@ -1,0 +1,25 @@
+.quote{
+    max-width: 600px;
+    margin:20px auto;
+    padding: 10px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    font-size: 20px;
+    margin-top: 5px;
+}
+h3::before{
+    content:"👉"
+}
+.quote button{
+    padding: 10px;
+    color:white;
+    font-size: 1rem;
+    background-color:black;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}

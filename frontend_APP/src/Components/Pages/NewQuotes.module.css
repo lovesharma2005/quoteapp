@@ -1,0 +1,40 @@
+.inp{
+    width:600px;
+    background-color: beige;
+    padding: 2rem;
+    /* border-radius: 2rem; */
+    margin: 10px;
+}
+.inp>div>label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+}
+.inp input{
+    box-sizing: border-box;
+    margin: 5px;
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px;
+}
+.inp textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1rem;
+}
+.inp .quote{
+    font-size: 4rem;
+}
+.inp button{
+    margin-top: 10px;
+    padding: 10px 5px;
+    font-size: 0.8rem;
+    border: none;
+    background-color: teal; 
+    color:aliceblue;
+    font-weight: 800;
+    border-radius: 6px;
+    cursor: pointer;
+}
